@@ -27,11 +27,12 @@
     padding: 10px;
     background-color: $bgc;
     color: invert($bgc);
-    font-size: $size-5;
+    font-size: $size-4;
     text-align: center;
     border: 1px solid darken($bgc, 10);
     cursor: pointer;
     @include borderR(5px);
     margin-top: 10px;
+    @content;
   }
 }
